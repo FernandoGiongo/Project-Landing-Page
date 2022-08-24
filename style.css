@@ -116,3 +116,64 @@ header {
     color: #6e6f72;
     text-align: center;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 20vw 20px 20vw;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.quote-author {
+    font-weight: 700;
+    font-size: 24px;
+    align-self: flex-end;
+    margin:0;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 10vw 20px 10vw;
+    color:#F9FAF8
+}
+
+
+.call-title {
+    font-weight: 700;
+}
+
+.call-main {
+    font-weight: 400;
+}
+
+.call-button {
+    background-color: #3882F6;
+    border: solid 5px white;
+    color:white;
+    font-weight: 700;
+    border-radius: 5px;
+    height:50px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 50px;
+}
+.footer-text {
+    color: #F9FAF8;
+    text-align: center;
+}
