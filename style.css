@@ -1,0 +1,26 @@
+body {
+    font-family: Roboto Mono;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin:10px;
+}
